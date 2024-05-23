@@ -45,8 +45,7 @@ auto vpair = vertices(D);
 
 }
 
-int
-main(int, char *[])
-{
-  directedExample();
-}
+//int main(int, char *[])
+//{
+//  directedExample();
+//}
