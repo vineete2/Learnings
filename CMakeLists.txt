@@ -8,8 +8,10 @@ add_executable(Learnings
       #  toposort1.cpp
       #  toposort1.h
 
-        src/quickTour.cpp
-        src/quickTour.h)
+        #   src/quickTour.cpp
+        src/quickTour.h
+       # src/edges.cpp
+        src/threads.cpp)
 
 # Dependency to spdlog
 target_include_directories(${PROJECT_NAME} PRIVATE src/)
